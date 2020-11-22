@@ -5,6 +5,9 @@ html, body {
 }
 
 body {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 300;
+  color: gray;
   margin: 0;
   display: flex;
 
@@ -13,4 +16,14 @@ body {
 
   /* This centers our sketch vertically. */
   align-items: center;
+}
+#info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  font-size: 1rem;
+}
+#info a {
+  color: gray;
 }
