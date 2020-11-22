@@ -87,3 +87,7 @@ function draw() {
   offset += offsetInc;
   fuzzOffset += fuzzInc
 }
+
+function touchStarted() {
+  getAudioContext().resume()
+}
